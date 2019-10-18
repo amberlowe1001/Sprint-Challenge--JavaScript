@@ -30,7 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+let arr = ['ALL', 'alegtj'];
+
+
+  let newForEachArr = [];
+  arr.forEach(el => newForEachArr.push(`${el}@gamil.com`));
+
+  console.log(newForEachArr);   //  [ 'alegtj@gamil.com', 'alegtj@gamil.com' ]
+
+.map  creates a new array. Using .map to get  the same result but with less code
+
+  let newMapArr = arr.map(el => `${el}@gamil.com`);
+
+  console.log(newMapArr);       //  [ 'alegtj@gamil.com', 'gem@gamil.com' ]
+
+
 2. What is the difference between a function and a method?
+a method is a function that is the value of the parent. When a function is called .
 
 3. What is closure?
 
