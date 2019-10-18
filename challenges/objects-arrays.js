@@ -26,6 +26,7 @@ const stegosaurus = {
 }
 
 const velociraptor = {
+  debugger
   name: 'velociraptor',
   diet: 'carnivorous',
   weight: '15kg',
