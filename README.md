@@ -34,9 +34,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What is closure?
 
+ A closure  or nested function can be returned: either as a property of a new object (if the outer function creates an object with methods) or as a result by itself. It can then be used somewhere else, at a later time but are also orgainzed within the parent object.
+
 4. Describe the four rules of the 'this' keyword.
 
+        1.  "this" points to an object but the value of "this" is determined by how the function is called.
+        2.  "this" runTimeBinding means that "this" refers to changes  that occur when the execution context changes.
+        3.  function is invoked, the activation record is created in the lexical enviroment(the execution contex.
+        4.  "this" keyword points to the window when using explicit  or global binding) and the implicet binding is refering to the local envioroment, inside the block scope  and inheritance is coming from the top object (parent object.)
+
 5. Why do we need super() in an extended class?
+
+these methods are the update ES6  that replaced .extend and .call . Without them you wouldn't be able to extend attributes down to the child  and or grandchild object without the prototype key words to invoke the function.
 
 ## Project Set up
 
@@ -65,11 +74,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes

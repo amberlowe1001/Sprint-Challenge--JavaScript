@@ -14,10 +14,6 @@ const firstTask = consume('Amber', 'Lowe', function (first, last) {
 });
 console.log(firstTask);
 
-
-
-
-
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
   * Create a function named multiply that returns the product of two numbers
@@ -52,6 +48,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation:
 
+// This is describing a closure.  A closure nested function can be returned: either as a property of a new object (if the outer function creates an object with methods) or as a result by itself. It can then be used somewhere else
 
 const external = "I'm outside the function";
 
